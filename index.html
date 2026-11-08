@@ -12,7 +12,7 @@
 <footer><div class="wrap foot"><span>© <span id="year"></span> Luminex Cleaning Limited. All rights reserved.</span><span>Slough, United Kingdom · Company No. 16970050</span></div></footer>
 <script>
 // Set these to confirmed business details before publishing. WhatsApp: international digits only, no + sign.
-const BUSINESS_EMAIL='Luminexcleaninglimited@gmail.com';
+const BUSINESS_EMAIL=const BUSINESS_EMAIL='info@luminexservices.co.uk';
 const BUSINESS_WHATSAPP='447356008788';
 document.getElementById('year').textContent=new Date().getFullYear();
 const menu=document.getElementById('menu'),links=document.getElementById('links');menu.addEventListener('click',()=>{const opened=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(opened))});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
